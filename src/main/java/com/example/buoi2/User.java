@@ -7,13 +7,13 @@ public class User implements Serializable {
     private String lastName;
     private String email;
 
-    public User(){
+    public User() {
         firstName = "";
         lastName = "";
         email = "";
     }
 
-    public User (String firstName, String lastName, String email){
+    public User(String firstName, String lastName, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
@@ -27,7 +27,7 @@ public class User implements Serializable {
         this.firstName = firstName;
     }
 
-    public String getLastName(){
+    public String getLastName() {
         return lastName;
     }
 

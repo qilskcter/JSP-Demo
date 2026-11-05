@@ -3,9 +3,7 @@ package com.example.buoi2;
 import java.io.*;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
-import jakarta.servlet.annotation.*;
 
-@WebServlet("/emailList")
 public class EmailListServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request,
